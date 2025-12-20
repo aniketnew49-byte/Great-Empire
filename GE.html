@@ -1,21 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Student-Creator-hub</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <meta charset="UTF-8">
+    <title>Great Empire | OS</title>
+    <style>
+        body { 
+            background-color: #050505; 
+            color: #00ff41; /* Classic Matrix/Hacker Green */
+            font-family: 'Courier New', Courier, monospace; 
+            display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;
+        }
+        .console {
+            width: 80%; max-width: 600px; padding: 20px;
+            border: 1px solid #00ff41; box-shadow: 0 0 15px #00ff41;
+            background: rgba(0, 255, 65, 0.05);
+        }
+        .cursor { display: inline-block; width: 10px; height: 20px; background: #00ff41; animation: blink 1s infinite; }
+        @keyframes blink { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }
+    </style>
 </head>
-<body><center>
-    <table style="width: 60%; background-color: aqua; border-radius: 30px; margin-top: 10%;"><tr>
-        <th style="font-family: Arial, Helvetica, sans-serif;"><h3>Building the future of student creation</h3></th>
-    </tr>
-    <tr><hr style="color: black;"></tr>
-<tr>
-    <th style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; width: 25%;">I am a class 11th student & a youtuber <br>building tools to track your scale</th>
-</tr>
-<tr><th><button style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; width: 40%; border-radius: 25px; ">Watch my youtube journey</button></th></tr></table></center>
+<body>
+    <div class="console">
+        <p>> INITIALIZING GREAT_EMPIRE_OS...</p>
+        <p>> STATUS: ACTIVE</p>
+        <p>> USER: ANIKET_DEV</p>
+        <p>> MISSION: CLASS 11 ACADEMIC DOMINANCE</p>
+        <p>> TARGET: 2026 VISION</p>
+        <p>> <span class="cursor"></span></p>
+    </div>
 </body>
 </html>
